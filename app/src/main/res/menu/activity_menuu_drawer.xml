@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/btnCitas"
+            android:icon="@drawable/citaicon"
+            android:title="Solicitar cita" />
+        <item
+            android:id="@+id/btnDonde"
+            android:icon="@drawable/mapaicon"
+            android:title="¿Dónde estamos?" />
+        <item
+            android:id="@+id/btnQuien"
+            android:icon="@drawable/listaicon"
+            android:title="Mis citas" />
+    </group>
+
+    <item android:title="RRSS">
+        <menu>
+            <item
+                android:id="@+id/btnSiguenos"
+                android:icon="@drawable/iconsig"
+                android:title="Siguenos" />
+        </menu>
+    </item>
+
+    <item android:title="Salir">
+        <menu>
+            <item
+                android:id="@+id/btnLog"
+                android:icon="@drawable/iconexit"
+                android:title="LogOut" />
+        </menu>
+    </item>
+</menu>
